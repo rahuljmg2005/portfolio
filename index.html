@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+ 
+
+<div class="hero-bg-color">
+     <!-- Navbar -->
+     <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <h1 style="font-family: 'Rubik Vinyl', cursive;
+      font-size: 2.5rem;">MY PORTFOLIO</h1>
+        </div>
+        <div class="burger-menu" id="burger-menu">
+          <span class="hamburger-icon">&#9776;</span>
+          <span class="logot">MY PORTFOLIO</span>
+        </div>
+        <ul class="navbar-links" id="navbar-links">
+          <li style=" opacity: 0;animation: fadeIn 1s ease-in-out 1.1s forwards;"><a href="#home">HOME</a></li>
+          <li style=" opacity: 0;animation: fadeIn 1s ease-in-out 1.3s forwards;"><a id="about" href="#about-nav">ABOUT</a></li>
+          <li style=" opacity: 0;animation: fadeIn 1s ease-in-out 1.5s forwards;"><a id="pro" href="#pro-nav">PROJECTS</a></li>
+          <li style=" opacity: 0;animation: fadeIn 1s ease-in-out 1.7s forwards;"><a id="con" href="#contact-nav">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+      <div class="hero-container">
+        <div class="bt1">
+          <div class="bt1-child">
+            <h1 class="greet-name delay-text" >Hello!</h1>
+            <h1 class="greet-name delay-text">I am <span id="typed-text" style="position: absolute; padding-left: 1%;"></span></h1>
+            <p  class="delay-text">
+              a front-end web developer passionate about creating clean, responsive, and user-friendly websites. Take a look at my work, and let’s create something great together!
+            </p>
+           <a id="pro2" href="#pro-nav">
+            <button  class="animated-button1">
+              <span>My projects</span>
+              <span></span>
+            </button>
+           </a>
+          </div>
+        </div>
+        <div class="bi1">
+          <div class="bi1-child" >
+            <img  class="img1" src="mrahul.png" alt="Profile Image">
+           
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+
+<!-- about page section -->
+<div class="full-page" id="about-nav">
+  <div class="about-page">
+    <!-- About me section -->
+    <div class="about-me">
+       <h2>About <span class="me">Me</span></h2>
+     </div>
+  <!-- Four divs centered inside the parent div -->
+     <div class="three-divs" >
+       <div id="div-1"><p class="txt"><span style="font-size: 30px; font-weight: bold;">EDUCATION</span><br><br>I am currently pursuing my Bachelor of Science in Computer Science at The Madura College, Madurai. As a second-year student, I have developed a strong foundation in programming and technology and I am expanding my skills in web development, with a focus on frontend technologies.</p></div>
+       <div id="div-2"><p class="txt"><span style="font-size: 30px; font-weight: bold;">EXPERIENCE</span><br><br> While I am in the early stages of my career, I have been actively developing my skills in frontend web development through personal projects and academic coursework. I have consistently applied my knowledge of HTML, CSS, and JavaScript to create responsive and visually appealing websites.</p></div>
+       <div id="div-3"><p class="txt"><span style="font-size: 30px; font-weight: bold;">HOBBIES</span><br><br>I enjoy exploring new web development technologies to expand my skills and stay updated with the latest trends and I playing cricket, which helps me stay active, improve teamwork, and sharpen my focus. Additionally, I love reading manga and enjoy story telling styles and unique artistic expressions.</p></div>
+     </div>   
+   </div>
+   <div style="text-align: center; padding-top: 4%;"><a href="resume.pdf" download="Rahul's Resume"><button class="btn-dwnld">My Resume</button></a></div>
+ </div>
+
+  <script src="scripts.js"></script>
+
+  <!-- project secion -->
+  <div class="project-section" id="pro-nav">
+    <h1 class="project">My <span style="color:#00bbf0;">Projects</span></h1>
+  <div class="gallery">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="portss.jpeg" alt="Project 1" class="project-image">
+      <div class="project-content">
+        <h2 class="project-title">Portfolio</h2>
+        <p class="project-description">I designed and developed my personal portfolio website using HTML, CSS, and JavaScript to showcase my projects, skills, and experience. The website features smooth animations and a fully responsive design, ensuring an optimal viewing experience on all devices.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="career guidance.jpeg" alt="Project 2" class="project-image">
+      <div class="project-content">
+        <h2 class="project-title">Career guidance</h2>
+        <p class="project-description">A platform built with Firebase to help students find colleges based on eligibility and aptitude test scores. Features include student & admin login, college selection, aptitude test, and location-based search (India/Abroad), making the admission process seamless and efficient.</p>
+        <a href="https://career-guidance-4e0a0.firebaseapp.com/" class="project-link">View Project</a>
+      </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="basic calculator.jpeg" alt="Project 3" class="project-image">
+      <div class="project-content">
+        <h2 class="project-title">Basic calculator</h2>
+        <p class="project-description">my third project, Basic Calculator is a web-based application that allows users to perform fundamental arithmetic operations such as addition, subtraction, multiplication, and division. Designed with a clean and intuitive interface, the calculator ensures ease of use while maintaining a modern and responsive design.</p>
+        <a href="https://rahuljmg2005.github.io/calculator/" class="project-link">View Project</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Contact Section -->
+<div class="contact-info" id="contact-nav">
+  <h1 class="c-me" style="text-align: center; font-size: 40px;">
+    Contact <span style="color:#00bbf0;">me</span>
+  </h1>
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <div class="form-container">
+      <h2>Send Me a Message</h2>
+      <form id="contact-form" action="https://formspree.io/f/mnnnlpbr"
+      method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <div></div>
+  </div>
+
+  <!-- Contact Details -->
+  <div class="contact-details">
+    <div>
+      <p>
+        <a style="text-decoration: none; color: white;" href="mailto:rahuljmg2005@gmail.com">
+          <i class="fas fa-envelope" style="font-size: 20px;"></i>
+          rahuljmg2005@gmail.com
+        </a>
+      </p>
+    </div>
+    <div>
+      <p>
+        <i class="fas fa-phone-alt"></i>
+        7806843792
+      </p>
+    </div>
+    <div>
+      <p>
+        <i class="fab fa-whatsapp" style="font-size: 20px;"></i>
+        7806843792
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
